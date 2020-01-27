@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
         contacts.push(contact)
 
         //2. Save them to our storage
-        storage.setItems('contacts', JSON.stringify(contacts))
+        storage.setItem('contacts', JSON.stringify(contacts))
         renderContacts()
         contactForm.reset()
     })
