@@ -5,7 +5,7 @@ body {
     margin-top: 25px;
     width: 25%;
     border: 10px solid black;
-    padding: 10px;
+    padding: 100px;
     text-align: center;
 }
 
@@ -48,8 +48,9 @@ button {
    padding: 10px 10px;
    text-align: center;
    text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
+   display: block;
+   float: left;
+   font-size: 15px;
    border-radius: 10px;
 }
 
@@ -67,8 +68,6 @@ input[type="submit"] {
 
 div {
     width: 100%;
-    text-align: center;
+    text-align: left;
     font-size: 14px;
-    display: inline-block;
-    ;
 }
